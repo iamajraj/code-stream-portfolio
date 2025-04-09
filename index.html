@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE STREAM // Digital Engineering | M. Raj</title>
+    <meta name="description" content="A creative portfolio showcasing software engineering projects and approach.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'display': ['Syne', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+                        'sans': ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+                    },
+                    colors: {
+                        'dark-deep': '#0a0a0a',
+                        'dark-surface': '#1a1a1a', // Slightly lighter for subtle contrast
+                        'accent-lime': {
+                            DEFAULT: '#bef264', // lime-300
+                            darker: '#a3e635' // lime-400
+                        },
+                        'light-text': '#d4d4d4', // neutral-300
+                        'medium-text': '#a3a3a3', // neutral-400
+                        'subtle-text': '#525252', // neutral-600
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-dark-deep text-light-text font-sans overflow-x-hidden">
+
+    <div class="min-h-screen flex flex-col justify-center items-start px-6 sm:px-12 md:px-20 py-24 relative">
+        <div class="max-w-3xl">
+             <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-extrabold text-white leading-none mb-4">
+                Software Engineer<span class="text-accent-lime">.</span>
+            </h1>
+            <p class="text-xl sm:text-2xl md:text-3xl text-medium-text font-light font-sans tracking-tight">
+                Architecting robust digital systems & elegant user interfaces.
+            </p>
+        </div>
+         <div class="absolute bottom-10 left-6 sm:left-12 md:left-20 h-1 w-16 bg-accent-lime opacity-50"></div>
+    </div>
+
+    <!-- Transition / Statement -->
+    <div class="px-6 sm:px-12 md:px-20 py-20 md:py-32">
+        <p class="max-w-4xl text-2xl sm:text-3xl md:text-4xl font-sans font-light text-medium-text leading-relaxed italic">
+            "Building software is like composing music; structure meets creativity to produce something functional and beautiful."
+        </p>
+    </div>
+
+    <!-- Project Highlight 1 -->
+    <div class="px-6 sm:px-12 md:px-20 py-16 md:py-24 border-t border-dark-surface">
+        <div class="max-w-5xl">
+            <span class="font-display text-sm uppercase tracking-widest text-accent-lime mb-3 block">Project // Nexus Platform</span>
+            <h2 class="text-4xl sm:text-5xl md:text-6xl font-display font-bold text-white mb-6 leading-tight">
+                Scalable Microservices Architecture
+            </h2>
+            <p class="text-lg text-light-text font-sans font-light leading-relaxed mb-8 max-w-3xl">
+                Developed a suite of interconnected microservices for [specific domain, e.g., real-time data processing], focusing on resilience, independent deployment, and inter-service communication via message queues. Utilized Docker for containerization and orchestrated deployments using Kubernetes.
+            </p>
+            <div class="flex flex-wrap gap-3 mb-8">
+                <span class="text-xs font-medium bg-dark-surface text-accent-lime px-3 py-1 rounded-full">Go</span>
+                <span class="text-xs font-medium bg-dark-surface text-accent-lime px-3 py-1 rounded-full">Docker</span>
+                <span class="text-xs font-medium bg-dark-surface text-accent-lime px-3 py-1 rounded-full">Kubernetes</span>
+                <span class="text-xs font-medium bg-dark-surface text-accent-lime px-3 py-1 rounded-full">gRPC</span>
+                <span class="text-xs font-medium bg-dark-surface text-accent-lime px-3 py-1 rounded-full">RabbitMQ</span>
+            </div>
+            <div class="flex space-x-6">
+                 <a href="#" target="_blank" rel="noopener noreferrer" class="text-accent-lime hover:text-accent-lime-darker font-medium group transition duration-300">
+                    View Repository
+                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-accent-lime"></span>
+                 </a>
+            </div>
+        </div>
+    </div>
+
+     <!-- Project Highlight 2 -->
+    <div class="px-6 sm:px-12 md:px-20 py-16 md:py-24 border-t border-dark-surface">
+        <div class="max-w-5xl ml-auto text-right"> <!-- Right alignedd content -->
+            <span class="font-display text-sm uppercase tracking-widest text-accent-lime mb-3 block">Project // Fluent UI Kit</span>
+            <h2 class="text-4xl sm:text-5xl md:text-6xl font-display font-bold text-white mb-6 leading-tight">
+                Interactive Design System
+            </h2>
+            <p class="text-lg text-light-text font-sans font-light leading-relaxed mb-8 max-w-3xl ml-auto">
+                Crafted a component library in React & TypeScript, emphasizing accessibility (WCAG AA), reusability, and themeability. Implemented Storybook for documentation and visual testing, ensuring consistent UI across multiple applications.
+            </p>
+             <div class="flex flex-wrap gap-3 mb-8 justify-end">
+                <span class="text-xs font-medium bg-dark-surface text-accent-lime px-3 py-1 rounded-full">React</span>
+                <span class="text-xs font-medium bg-dark-surface text-accent-lime px-3 py-1 rounded-full">TypeScript</span>
+                <span class="text-xs font-medium bg-dark-surface text-accent-lime px-3 py-1 rounded-full">Storybook</span>
+                <span class="text-xs font-medium bg-dark-surface text-accent-lime px-3 py-1 rounded-full">Styled Components</span>
+                <span class="text-xs font-medium bg-dark-surface text-accent-lime px-3 py-1 rounded-full">WCAG</span>
+            </div>
+            <div class="flex space-x-6 justify-end"> 
+                 <a href="#" target="_blank" rel="noopener noreferrer" class="text-accent-lime hover:text-accent-lime-darker font-medium group transition duration-300">
+                    Explore Components
+                     <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-accent-lime"></span>
+                 </a>
+            </div>
+        </div>
+    </div>
+
+     <!-- Skills / Approach Snippet -->
+    <div class="px-6 sm:px-12 md:px-20 py-20 md:py-32 border-t border-dark-surface">
+        <div class="max-w-4xl">
+            <h3 class="text-3xl sm:text-4xl font-display font-bold text-white mb-6">Core Philosophy<span class="text-accent-lime">;</span></h3>
+            <ul class="space-y-4 text-lg text-medium-text font-sans font-light">
+                 <li class="flex items-start">
+                     <span class="text-accent-lime mr-3 mt-1 text-xl font-bold">→</span>
+                     <span>Emphasis on clean, testable code and SOLID principles.</span>
+                 </li>
+                 <li class="flex items-start">
+                     <span class="text-accent-lime mr-3 mt-1 text-xl font-bold">→</span>
+                     <span>Advocate for DevOps culture and automation (CI/CD).</span>
+                 </li>
+                 <li class="flex items-start">
+                     <span class="text-accent-lime mr-3 mt-1 text-xl font-bold">→</span>
+                     <span>Belief in pragmatic solutions and iterative development.</span>
+                 </li>
+                 <li class="flex items-start">
+                     <span class="text-accent-lime mr-3 mt-1 text-xl font-bold">→</span>
+                     <span>Continuous learning and adaptation to new technologies.</span>
+                 </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contact / Footer Area -->
+    <div class="px-6 sm:px-12 md:px-20 py-24 md:py-32 text-center border-t border-dark-surface">
+        <h2 class="text-4xl sm:text-5xl md:text-6xl font-display font-extrabold text-white mb-6">
+            Let's Connect<span class="text-accent-lime">.</span>
+        </h2>
+        <p class="text-lg text-medium-text font-sans font-light mb-10 max-w-xl mx-auto">
+            Interested in collaborating or discussing a project? Reach out via email or connect on professional networks.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center items-center space-y-6 sm:space-y-0 sm:space-x-8 mb-16">
+             <a href="mailto:hi@hexraj.com" class="text-accent-lime hover:text-accent-lime-darker text-xl font-medium transition duration-300 group relative">
+                <span>hi@hexraj.com</span>
+                <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent-lime transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <div class="flex space-x-6 items-center">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="text-medium-text hover:text-accent-lime transition duration-300" aria-label="LinkedIn">
+                   <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="text-medium-text hover:text-accent-lime transition duration-300" aria-label="GitHub">
+                   <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.026 2.747-1.026.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" /></svg>
+                </a>
+            </div>
+        </div>
+        <p class="text-xs text-subtle-text font-sans">© 2024 // M. Raj</p>
+    </div>
+</body>
+</html>
